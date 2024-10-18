@@ -3,10 +3,12 @@ server:
 
 spring:
   datasource:
-
-    url: jdbc:postgresql://frutas_db:5432/pruebaFrutasDB
-    username: postgres
-    password: 123
+    #url: jdbc:postgresql://localhost:5432/pruebaFrutasDB
+    #username: postgres
+    #password: 123
+    url: jdbc:postgresql://dpg-cs9d96o8fa8c73c8ugf0-a.oregon-postgres.render.com:5432/frutasdb
+    username: frutasdb_user
+    password: UiQpzCbsEm8bexqlXzlzNfBLMVJhXl1b
 
     driver-class-name: org.postgresql.Driver
 
