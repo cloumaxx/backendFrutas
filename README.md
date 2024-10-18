@@ -8,7 +8,7 @@
 Primero, clona este repositorio en tu máquina local usando Git:
 
 ```bash
-git clone hhttps://github.com/cloumaxx/backendFrutas.git
+git clone https://github.com/cloumaxx/backendFrutas.git
 cd tu-repositorio
 ```
 
