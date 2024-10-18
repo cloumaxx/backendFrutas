@@ -18,6 +18,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/frutas")
+@CrossOrigin
 public class FrutaController {
     private final IFrutaUseCase frutaUseCase;
 
