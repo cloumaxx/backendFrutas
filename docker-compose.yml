@@ -13,7 +13,7 @@ services:
   # Servicio para el Backend (Spring Boot)
   java_app:
     build:
-      context: ../backendFrutas   # Carpeta local donde está el Dockerfile del backend
+      context: .   # Carpeta local donde está el Dockerfile del backend
       dockerfile: Dockerfile
     container_name: java_app
     ports:
